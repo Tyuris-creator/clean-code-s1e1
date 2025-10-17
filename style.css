@@ -4,59 +4,46 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-
-.details {
+.aaa {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-
-.details .details__image {
+.aaa img {
     width: 100%;
 }
-
-.details .details__link {
+.aaa .more_inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .details { 
-        text-align: center;
-    }
+.aaa { text-align: center;
 }
-
-.container {
+}
+.centered-main-page-element {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
-
-.task-wrapper {
+.task-row-wrapper {
     display: flex;
 }
-
 ul {
-    margin: 0;
+    margin:0;
     padding: 0px;
 }
-
-li,
-h3 {
-    list-style: none;
+li, h3 {
+    list-style:none;
 }
-
-input, 
-button {
-    outline: none;
+input,button{
+    outline:none;
 }
-
 button {
     background: none;
     border: 0px;
@@ -66,14 +53,11 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-
 button:hover {
-    color: #3a3a3a;
+    color: #3a3A3a;
 }
-
 /* Heading */
-
-h3, 
+h3,
 label[for='new-task'] {
     color: #333;
     font-weight: 700;
@@ -83,20 +67,18 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
-
 input[type="text"] {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #ddd;
-    background: #fff;
+    border: 1px solid #dDd;
+    background: #FFF;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
 }
-
 input[type="text"]:focus {
     color: #333;
 }
@@ -106,8 +88,7 @@ label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
-
-#new-task {
+input#new-task {
     width: 318px;
 }
 
@@ -121,7 +102,6 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-
 li > * {
     vertical-align: middle;
 }
@@ -135,18 +115,15 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-
-li > input[type="text"] {
+li >    input[type="text"] {
     width: 226px
 }
-
-.delete {
+button.delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-
-.delete:hover {
+button.delete img:hover {
     transform: rotateZ(0);
 }
 
